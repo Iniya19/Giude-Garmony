@@ -5,6 +5,11 @@
     justify-content: center;
     align-items: center;
     margin: 30px;
+    transform: scale(1);
+
+    &:hover, &:focus{
+        transform: scale(1.5);
+    }
 }
 
 .price__text {
@@ -45,28 +50,54 @@ i {
 }
 
 .right {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) scale(1);
     margin-left: 5px;
+
+    &:hover, 
+    &:focus {
+    transform: rotate(-45deg) scale(1.5);
+    }
 }
 .right1 {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) scale(1);
     margin-left: 5px;
+    &:hover,
+        &:focus {
+            transform: rotate(-45deg) scale(1.5);
+        }
 }
 
 .right2 {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) scale(1);
     margin-left: 5px;
+    &:hover,
+        &:focus {
+            transform: rotate(-45deg) scale(1.5);
+        }
 }
 .left {
-    transform: rotate(135deg);
+    transform: rotate(135deg) scale(1);
     margin-right: 5px;
+    &:hover,
+        &:focus {
+            transform: rotate(135deg) scale(1.5);
+        }
 }
 .left1 {
-    transform: rotate(135deg);
+    transform: rotate(135deg) scale(1);
     margin-right: 5px;
+    &:hover,
+        &:focus {
+            transform: rotate(135deg) scale(1.5);
+        }
 }
 .left2 {
-    transform: rotate(135deg);
+    transform: rotate(135deg) scale(1);
+    margin-right: 5px;
+    &:hover,
+        &:focus {
+            transform: rotate(135deg) scale(1.5);
+        }
     
 }
 }
@@ -77,6 +108,12 @@ i {
     justify-content: center;
     align-items: center;
     margin: 30px;
+    transform: scale(1);
+    
+        &:hover,
+        &:focus {
+            transform: scale(1.5);
+        }
 
 }
 
@@ -154,6 +191,12 @@ i {
     justify-content: center;
     align-items: center;
     margin: 30px;
+    transform: scale(1);
+    
+        &:hover,
+        &:focus {
+            transform: scale(1.3);
+        }
 
 }
 
@@ -231,6 +274,12 @@ i {
     justify-content: center;
     align-items: center;
     margin: 30px;
+    transform: scale(1);
+    
+        &:hover,
+        &:focus {
+            transform: scale(1.3);
+        }
 
 }
 
